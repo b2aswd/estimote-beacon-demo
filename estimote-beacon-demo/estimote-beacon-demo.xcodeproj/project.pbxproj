@@ -15,6 +15,11 @@
 		788CAEBE1A93558F003C29EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788CAEBC1A93558F003C29EF /* LaunchScreen.xib */; };
 		788CAECA1A93558F003C29EF /* estimote_beacon_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788CAEC91A93558F003C29EF /* estimote_beacon_demoTests.m */; };
 		788CAEEE1A935655003C29EF /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CAEED1A935655003C29EF /* libEstimoteSDK.a */; };
+		788CAEF01A9357A5003C29EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CAEEF1A9357A5003C29EF /* CoreLocation.framework */; };
+		788CAEF21A9357BC003C29EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CAEF11A9357BC003C29EF /* Foundation.framework */; };
+		788CAEF41A9357C3003C29EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CAEF31A9357C3003C29EF /* UIKit.framework */; };
+		788CAEF61A9357CD003C29EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CAEF51A9357CD003C29EF /* SystemConfiguration.framework */; };
+		788CAEF81A9357D5003C29EF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788CAEF71A9357D5003C29EF /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		788CAEEB1A935655003C29EF /* ESTTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTrigger.h; sourceTree = "<group>"; };
 		788CAEEC1A935655003C29EF /* ESTTriggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTriggerManager.h; sourceTree = "<group>"; };
 		788CAEED1A935655003C29EF /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+		788CAEEF1A9357A5003C29EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		788CAEF11A9357BC003C29EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788CAEF31A9357C3003C29EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		788CAEF51A9357CD003C29EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		788CAEF71A9357D5003C29EF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788CAEF81A9357D5003C29EF /* CoreBluetooth.framework in Frameworks */,
+				788CAEF61A9357CD003C29EF /* SystemConfiguration.framework in Frameworks */,
+				788CAEF41A9357C3003C29EF /* UIKit.framework in Frameworks */,
+				788CAEF21A9357BC003C29EF /* Foundation.framework in Frameworks */,
+				788CAEF01A9357A5003C29EF /* CoreLocation.framework in Frameworks */,
 				788CAEEE1A935655003C29EF /* libEstimoteSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +105,11 @@
 		788CAEA11A93558F003C29EF = {
 			isa = PBXGroup;
 			children = (
+				788CAEF71A9357D5003C29EF /* CoreBluetooth.framework */,
+				788CAEF51A9357CD003C29EF /* SystemConfiguration.framework */,
+				788CAEF31A9357C3003C29EF /* UIKit.framework */,
+				788CAEF11A9357BC003C29EF /* Foundation.framework */,
+				788CAEEF1A9357A5003C29EF /* CoreLocation.framework */,
 				788CAEAC1A93558F003C29EF /* estimote-beacon-demo */,
 				788CAEC61A93558F003C29EF /* estimote-beacon-demoTests */,
 				788CAEAB1A93558F003C29EF /* Products */,
@@ -124,6 +144,7 @@
 		788CAEAD1A93558F003C29EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				788CAEF91A9357E9003C29EF /* New Group */,
 				788CAEAE1A93558F003C29EF /* Info.plist */,
 				788CAEAF1A93558F003C29EF /* main.m */,
 			);
@@ -185,6 +206,13 @@
 				788CAEEC1A935655003C29EF /* ESTTriggerManager.h */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		788CAEF91A9357E9003C29EF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
