@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788CAEB01A93558F003C29EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788CAEAF1A93558F003C29EF /* main.m */; };
+		788CAEB31A93558F003C29EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788CAEB21A93558F003C29EF /* AppDelegate.m */; };
+		788CAEB61A93558F003C29EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788CAEB51A93558F003C29EF /* ViewController.m */; };
+		788CAEB91A93558F003C29EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788CAEB71A93558F003C29EF /* Main.storyboard */; };
+		788CAEBB1A93558F003C29EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788CAEBA1A93558F003C29EF /* Images.xcassets */; };
+		788CAEBE1A93558F003C29EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788CAEBC1A93558F003C29EF /* LaunchScreen.xib */; };
+		788CAECA1A93558F003C29EF /* estimote_beacon_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788CAEC91A93558F003C29EF /* estimote_beacon_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788CAEC41A93558F003C29EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788CAEA21A93558F003C29EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788CAEA91A93558F003C29EF;
+			remoteInfo = "estimote-beacon-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		788CAEAA1A93558F003C29EF /* estimote-beacon-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "estimote-beacon-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788CAEAE1A93558F003C29EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788CAEAF1A93558F003C29EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		788CAEB11A93558F003C29EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		788CAEB21A93558F003C29EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		788CAEB41A93558F003C29EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		788CAEB51A93558F003C29EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		788CAEB81A93558F003C29EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		788CAEBA1A93558F003C29EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		788CAEBD1A93558F003C29EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		788CAEC31A93558F003C29EF /* estimote-beacon-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "estimote-beacon-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788CAEC81A93558F003C29EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788CAEC91A93558F003C29EF /* estimote_beacon_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = estimote_beacon_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788CAEA71A93558F003C29EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788CAEC01A93558F003C29EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788CAEA11A93558F003C29EF = {
+			isa = PBXGroup;
+			children = (
+				788CAEAC1A93558F003C29EF /* estimote-beacon-demo */,
+				788CAEC61A93558F003C29EF /* estimote-beacon-demoTests */,
+				788CAEAB1A93558F003C29EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788CAEAB1A93558F003C29EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788CAEAA1A93558F003C29EF /* estimote-beacon-demo.app */,
+				788CAEC31A93558F003C29EF /* estimote-beacon-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788CAEAC1A93558F003C29EF /* estimote-beacon-demo */ = {
+			isa = PBXGroup;
+			children = (
+				788CAEB11A93558F003C29EF /* AppDelegate.h */,
+				788CAEB21A93558F003C29EF /* AppDelegate.m */,
+				788CAEB41A93558F003C29EF /* ViewController.h */,
+				788CAEB51A93558F003C29EF /* ViewController.m */,
+				788CAEB71A93558F003C29EF /* Main.storyboard */,
+				788CAEBA1A93558F003C29EF /* Images.xcassets */,
+				788CAEBC1A93558F003C29EF /* LaunchScreen.xib */,
+				788CAEAD1A93558F003C29EF /* Supporting Files */,
+			);
+			path = "estimote-beacon-demo";
+			sourceTree = "<group>";
+		};
+		788CAEAD1A93558F003C29EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788CAEAE1A93558F003C29EF /* Info.plist */,
+				788CAEAF1A93558F003C29EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788CAEC61A93558F003C29EF /* estimote-beacon-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				788CAEC91A93558F003C29EF /* estimote_beacon_demoTests.m */,
+				788CAEC71A93558F003C29EF /* Supporting Files */,
+			);
+			path = "estimote-beacon-demoTests";
+			sourceTree = "<group>";
+		};
+		788CAEC71A93558F003C29EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788CAEC81A93558F003C29EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788CAEA91A93558F003C29EF /* estimote-beacon-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788CAECD1A93558F003C29EF /* Build configuration list for PBXNativeTarget "estimote-beacon-demo" */;
+			buildPhases = (
+				788CAEA61A93558F003C29EF /* Sources */,
+				788CAEA71A93558F003C29EF /* Frameworks */,
+				788CAEA81A93558F003C29EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "estimote-beacon-demo";
+			productName = "estimote-beacon-demo";
+			productReference = 788CAEAA1A93558F003C29EF /* estimote-beacon-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788CAEC21A93558F003C29EF /* estimote-beacon-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788CAED01A93558F003C29EF /* Build configuration list for PBXNativeTarget "estimote-beacon-demoTests" */;
+			buildPhases = (
+				788CAEBF1A93558F003C29EF /* Sources */,
+				788CAEC01A93558F003C29EF /* Frameworks */,
+				788CAEC11A93558F003C29EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788CAEC51A93558F003C29EF /* PBXTargetDependency */,
+			);
+			name = "estimote-beacon-demoTests";
+			productName = "estimote-beacon-demoTests";
+			productReference = 788CAEC31A93558F003C29EF /* estimote-beacon-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788CAEA21A93558F003C29EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jiri Zachar";
+				TargetAttributes = {
+					788CAEA91A93558F003C29EF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					788CAEC21A93558F003C29EF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 788CAEA91A93558F003C29EF;
+					};
+				};
+			};
+			buildConfigurationList = 788CAEA51A93558F003C29EF /* Build configuration list for PBXProject "estimote-beacon-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 788CAEA11A93558F003C29EF;
+			productRefGroup = 788CAEAB1A93558F003C29EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788CAEA91A93558F003C29EF /* estimote-beacon-demo */,
+				788CAEC21A93558F003C29EF /* estimote-beacon-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788CAEA81A93558F003C29EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CAEB91A93558F003C29EF /* Main.storyboard in Resources */,
+				788CAEBE1A93558F003C29EF /* LaunchScreen.xib in Resources */,
+				788CAEBB1A93558F003C29EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788CAEC11A93558F003C29EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788CAEA61A93558F003C29EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CAEB61A93558F003C29EF /* ViewController.m in Sources */,
+				788CAEB31A93558F003C29EF /* AppDelegate.m in Sources */,
+				788CAEB01A93558F003C29EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788CAEBF1A93558F003C29EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788CAECA1A93558F003C29EF /* estimote_beacon_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788CAEC51A93558F003C29EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788CAEA91A93558F003C29EF /* estimote-beacon-demo */;
+			targetProxy = 788CAEC41A93558F003C29EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788CAEB71A93558F003C29EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788CAEB81A93558F003C29EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		788CAEBC1A93558F003C29EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788CAEBD1A93558F003C29EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788CAECB1A93558F003C29EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		788CAECC1A93558F003C29EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788CAECE1A93558F003C29EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "estimote-beacon-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		788CAECF1A93558F003C29EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "estimote-beacon-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		788CAED11A93558F003C29EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "estimote-beacon-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/estimote-beacon-demo.app/estimote-beacon-demo";
+			};
+			name = Debug;
+		};
+		788CAED21A93558F003C29EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "estimote-beacon-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/estimote-beacon-demo.app/estimote-beacon-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788CAEA51A93558F003C29EF /* Build configuration list for PBXProject "estimote-beacon-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CAECB1A93558F003C29EF /* Debug */,
+				788CAECC1A93558F003C29EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788CAECD1A93558F003C29EF /* Build configuration list for PBXNativeTarget "estimote-beacon-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CAECE1A93558F003C29EF /* Debug */,
+				788CAECF1A93558F003C29EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		788CAED01A93558F003C29EF /* Build configuration list for PBXNativeTarget "estimote-beacon-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CAED11A93558F003C29EF /* Debug */,
+				788CAED21A93558F003C29EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788CAEA21A93558F003C29EF /* Project object */;
+}
